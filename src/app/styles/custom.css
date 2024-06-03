@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sora:wght@100..800&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+:root {
+    --yellow: #F7CB4E;
+}
+
+.customPurple {
+    color: #29285A;
+}
+
+.subTitulo-cinza {
+    color:#8E8E8E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.botao {
+    background-color: transparent;
+    border: 1px solid #204FEC;
+    border-radius: 50px;
+    color: #204FEC;
+}
+
+.botao:hover {
+    background-color: #204FEC;
+    color: #fff;
+}
+
+.h1Headline {
+    font-size: 110px;
+    font-weight: 600;
+    font-family: 'Sora';
+}
+
+.h2Headline {
+    font-size: 85px;
+    font-weight: 600;
+    font-family: 'Sora';
+}
+
+.h3Headline {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Sora';
+}
+
+.h4Headline {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Sora';
+}
+
+.h5Headline {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Sora'; 
+}
+
+.h6Headline {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Sora';
+}
+
+.subtitle1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.subtitle2{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.body1{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.body2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.body1{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}

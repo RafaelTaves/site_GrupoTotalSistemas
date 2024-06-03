@@ -1,0 +1,29 @@
+.botaoV {
+    background-color: #204FEC;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.fundo {
+    background-color: var(--yellow);
+    border-radius: 24px;
+}
+
+.banner {
+    border-radius: 24px;
+    margin-top: 80px;
+    background-color: #D06F3D;
+    flex-direction: column; 
+    gap: 2rem; 
+    max-width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+@media (min-width: 768px) { 
+  .banner {
+    flex-direction: row; 
+    gap: 1rem; 
+    max-width: 100%;
+  }
+}

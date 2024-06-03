@@ -1,0 +1,23 @@
+.carousel-dots {
+    display: flex;
+    justify-content: center; /* Centraliza as bolinhas horizontalmente */
+    margin-top: 1rem; /* Adiciona um espaçamento acima das bolinhas */
+  }
+  
+  .dot {
+    width: 10px; /* Tamanho da bolinha */
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc; /* Cor da bolinha inativa */
+    margin: 0 5px; /* Espaçamento entre as bolinhas */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave na cor */
+  }
+  
+  .dot.selected {
+    background-color: #204FEC; /* Cor da bolinha ativa */
+  }
+
+  ul.control-dots {
+    display: none;
+  }

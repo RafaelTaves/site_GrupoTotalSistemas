@@ -1,0 +1,47 @@
+'use client';
+
+import React, {useState} from 'react';
+const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <header id="Header" className="flex items-center justify-between p-6">
+      <div className="flex items-center">
+        <img src='./imagens/logo.png' alt="Logo" className="h-10 w-auto" />
+      </div>
+      <nav className="hidden md:flex space-x-6 text-gray-600">
+        <ul className="flex space-x-6">
+          <li><a href="#inicio" className="hover:text-gray-900 underline">Início</a></li>
+          <li><a href="#quem-somos" className="hover:text-gray-900 underline">Quem somos</a></li>
+          <li><a href="#o-que-fazemos" className="hover:text-gray-900 underline">O que fazemos</a></li>
+          <li><a href="#nossos-produtos" className="hover:text-gray-900 underline">Nossos produtos</a></li>
+          <li><a href="#esg" className="hover:text-gray-900 underline">ESG</a></li>
+          <li><a href="#contatos" className="hover:text-gray-900 underline">Contatos</a></li>
+        </ul>
+      </nav>
+      <div className="md:hidden">
+        <button onClick={toggleMenu} className="text-gray-600 focus:outline-none">
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden absolute top-16 right-0 w-full bg-white shadow-lg`}>
+        <ul className="flex flex-col space-y-4 p-6 text-gray-600">
+          <li><a href="#inicio" className="hover:text-gray-900">Início</a></li>
+          <li><a href="#quem-somos" className="hover:text-gray-900">Quem somos</a></li>
+          <li><a href="#o-que-fazemos" className="hover:text-gray-900">O que fazemos</a></li>
+          <li><a href="#nossos-produtos" className="hover:text-gray-900">Nossos produtos</a></li>
+          <li><a href="#esg" className="hover:text-gray-900">ESG</a></li>
+          <li><a href="#contatos" className="hover:text-gray-900">Contatos</a></li>
+        </ul>
+      </div>
+    </header>
+  );
+}
+
+export default Header;
