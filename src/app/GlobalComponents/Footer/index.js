@@ -16,7 +16,7 @@ function Footer() {
               <div className='md:w-1/5'>
                 <ul className="underline body3 mb-5">
                   <li className='mb-1'><a href="#inicio">Início</a></li>
-                  <li className='mb-1'><a href="#QuemSomos">Quem somos</a></li>
+                  <li className='mb-1'><a href="#quemSomos">Quem somos</a></li>
                   <li className='mb-1'><a href="#OQueFazemos">O que fazemos</a></li>
                   <li className='mb-1'><a href="#NossosProdutos">Nossos produtos</a></li>
                   <li className='mb-1'><a href="#ESG">ESG</a></li>

@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sora:wght@100..800&display=swap');
-
-
 html {
     scroll-behavior: smooth;
   }
@@ -12,6 +8,14 @@ html {
 
 .customPurple {
     color: #29285A;
+}
+
+.DM {
+    font-family: 'DM Sans';
+}
+
+.Sora {
+    font-family: 'Sora';
 }
 
 .subTitulo-cinza {
@@ -31,6 +35,11 @@ html {
 .botao:hover {
     background-color: #204FEC;
     color: #fff;
+}
+
+.title {
+    font-weight: 600;
+    font-family: 'Sora';
 }
 
 .h1Headline {

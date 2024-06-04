@@ -1,7 +1,8 @@
 'use client';
 
+import Link from 'next/link';
 import React, {useState} from 'react';
-const Header = () => {
+const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -15,12 +16,12 @@ const Header = () => {
       </div>
       <nav className="hidden md:flex space-x-6 text-gray-600">
         <ul className="flex space-x-6">
-          <li><a href="#inicio" className="hover:text-gray-900 underline">Início</a></li>
-          <li><a href="#quem-somos" className="hover:text-gray-900 underline">Quem somos</a></li>
-          <li><a href="#o-que-fazemos" className="hover:text-gray-900 underline">O que fazemos</a></li>
-          <li><a href="#nossos-produtos" className="hover:text-gray-900 underline">Nossos produtos</a></li>
-          <li><a href="#esg" className="hover:text-gray-900 underline">ESG</a></li>
-          <li><a href="#contatos" className="hover:text-gray-900 underline">Contatos</a></li>
+          <li><Link href="/" className={`hover:text-gray-900 underline ${props.inicioBold}`}>Início</Link></li>
+          <li><Link href="QuemSomos" className={`hover:text-gray-900 underline ${props.quemSomosBold}`}>Quem somos</Link></li>
+          <li><a href="#o-que-fazemos" className={`hover:text-gray-900 underline ${props.oQueFazemosBold}`}>O que fazemos</a></li>
+          <li><a href="#nossos-produtos" className={`hover:text-gray-900 underline ${props.nossosProdutosBold}`}>Nossos produtos</a></li>
+          <li><a href="#esg" className={`hover:text-gray-900 underline ${props.esgBold}`}>ESG</a></li>
+          <li><a href="#contatos" className={`hover:text-gray-900 underline ${props.contatosBold}`}>Contatos</a></li>
         </ul>
       </nav>
       <div className="md:hidden">
@@ -32,12 +33,12 @@ const Header = () => {
       </div>
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden absolute top-16 right-0 w-full bg-white shadow-lg`}>
         <ul className="flex flex-col space-y-4 p-6 text-gray-600">
-          <li><a href="#inicio" className="hover:text-gray-900">Início</a></li>
-          <li><a href="#quem-somos" className="hover:text-gray-900">Quem somos</a></li>
-          <li><a href="#o-que-fazemos" className="hover:text-gray-900">O que fazemos</a></li>
-          <li><a href="#nossos-produtos" className="hover:text-gray-900">Nossos produtos</a></li>
-          <li><a href="#esg" className="hover:text-gray-900">ESG</a></li>
-          <li><a href="#contatos" className="hover:text-gray-900">Contatos</a></li>
+          <li><a href="#inicio" className={`hover:text-gray-900 ${props.inicioBold}`}>Início</a></li>
+          <li><a href="#quem-somos" className={`hover:text-gray-900 ${props.quemSomosBold}`}>Quem somos</a></li>
+          <li><a href="#o-que-fazemos" className={`hover:text-gray-900 ${props.oQueFazemosBold}`}>O que fazemos</a></li>
+          <li><a href="#nossos-produtos" className={`hover:text-gray-900 ${props.nossosProdutosBold}`}>Nossos produtos</a></li>
+          <li><a href="#esg" className={`hover:text-gray-900 ${props.esgBold}`}>ESG</a></li>
+          <li><a href="#contatos" className={`hover:text-gray-900 ${props.contatosBold}`}>Contatos</a></li>
         </ul>
       </div>
     </header>

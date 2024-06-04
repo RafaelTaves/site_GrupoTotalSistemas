@@ -2,7 +2,7 @@ import React from 'react';
 
 const QuemSomos = () => {
   return (
-    <section id="QuemSomos" className="py-12 bg-white"> 
+    <section id="quemSomos" className="py-12 bg-white"> 
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 pr-8">
           <h3 className="mb-6 underline subTitulo-cinza">QUEM SOMOS</h3>
