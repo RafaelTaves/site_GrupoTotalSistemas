@@ -1,13 +1,14 @@
 import Footer from "../GlobalComponents/Footer";
 import Header from "../GlobalComponents/Header";
 
-function QuemSomos () {
+
+export default function QuemSomos () {
+    return(
     <>
     <div className="App mx-auto max-w-screen-xl">
         <Header />
-        <Footer />
     </div>
+    <Footer/>
     </>
+    )
 }
-
-export default QuemSomos;

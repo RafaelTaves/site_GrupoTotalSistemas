@@ -16,7 +16,7 @@ const MainSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
         </svg>
           Conheça mais
-        </button>
+        </button> 
         </a>
       </div>
       <div className="mt-8 md:mt-0 md:w-1/2 md:ml-auto flex justify-end relative ">
