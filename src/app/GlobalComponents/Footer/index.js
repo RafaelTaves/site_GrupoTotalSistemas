@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
 
@@ -15,9 +16,9 @@ function Footer() {
             <div className="grid grid-cols-1 md:flex md:justify-around ms-3 md:mt-5">
               <div className='md:w-1/5'>
                 <ul className="underline body3 mb-5">
-                  <li className='mb-1'><a href="#inicio">Início</a></li>
-                  <li className='mb-1'><a href="#quemSomos">Quem somos</a></li>
-                  <li className='mb-1'><a href="#OQueFazemos">O que fazemos</a></li>
+                  <li className='mb-1'><Link href="/">Início</Link></li>
+                  <li className='mb-1'><Link href="QuemSomos">Quem somos</Link></li>
+                  <li className='mb-1'> <Link href="OQueFazemos">O que fazemos</Link></li>
                   <li className='mb-1'><a href="#NossosProdutos">Nossos produtos</a></li>
                   <li className='mb-1'><a href="#ESG">ESG</a></li>
                   <li className='mb-1'><a href="#Contatos">Contatos</a></li>

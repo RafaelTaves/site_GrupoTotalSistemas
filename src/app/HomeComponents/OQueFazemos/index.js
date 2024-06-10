@@ -1,7 +1,7 @@
 import React from 'react';
 import './OQueFazemos.css'
 
-const OQueFazemos = () => {
+const O_quefazemos = (props) => {
   const services = [
     {
       icon: './imagens/iconeEtiqueta.ico', 
@@ -48,10 +48,10 @@ const OQueFazemos = () => {
   ];
 
   return (
-    <section id="OQueFazemos" className="py-12 bg-white">
+    <section id="O_quefazemos" className="py-12 bg-white">
     <div className="max-w-screen-xl mx-auto px-4">
       <h3 className="mb-6 underline subTitulo-cinza">O QUE FAZEMOS</h3>
-      <h2 className="text-3xl font-bold mb-8 h5Headline customPurple">Pensamos no futuro. E pensamos em você.</h2>
+      <h2 className="text-3xl font-bold mb-8 h5Headline customPurple">{props.titulo}</h2>
       <p className="body1 mb-12">
         Com nossa metodologia exclusiva para fornecer os serviços e soluções empresariais de TI necessários, visamos não apenas atender, mas superar suas expectativas, permitindo que alcance seus resultados desejados e acelere seu crescimento de maneira significativa.
       </p>
@@ -91,24 +91,9 @@ const OQueFazemos = () => {
           </div>
         ))}
       </div>
-    </div>
-    <div className='max-w-screen-xl mx-auto px-4'>   
-      <div className="banner flex flex-col md:flex-row md:justify-around md:items-center">
-        {items.map((item, index) => (
-          <div 
-            key={item.label} 
-            className={`flex-1 flex flex-col items-center text-center mt-2 mb-2 lg:py-8${
-              index === 2 ? 'md:col-span-2' : ''
-            }`} 
-          >
-            <span className="customPurple h4Headline">{item.number}</span>
-            <span className='body1'>{item.label}</span>
-          </div>
-        ))}
-      </div>
-    </div>   
+    </div>  
   </section>
   );
 }
 
-export default OQueFazemos;
+export default O_quefazemos;

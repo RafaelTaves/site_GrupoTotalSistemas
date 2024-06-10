@@ -18,7 +18,7 @@ const Header = (props) => {
         <ul className="flex space-x-6">
           <li><Link href="/" className={`hover:text-gray-900 underline ${props.inicioBold}`}>Início</Link></li>
           <li><Link href="QuemSomos" className={`hover:text-gray-900 underline ${props.quemSomosBold}`}>Quem somos</Link></li>
-          <li><a href="#o-que-fazemos" className={`hover:text-gray-900 underline ${props.oQueFazemosBold}`}>O que fazemos</a></li>
+          <li><Link href="OQueFazemos" className={`hover:text-gray-900 underline ${props.oQueFazemosBold}`}>O que fazemos</Link> </li>
           <li><a href="#nossos-produtos" className={`hover:text-gray-900 underline ${props.nossosProdutosBold}`}>Nossos produtos</a></li>
           <li><a href="#esg" className={`hover:text-gray-900 underline ${props.esgBold}`}>ESG</a></li>
           <li><a href="#contatos" className={`hover:text-gray-900 underline ${props.contatosBold}`}>Contatos</a></li>
