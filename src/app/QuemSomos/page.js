@@ -11,12 +11,12 @@ import ValoresSectionLeft from "./ValoresSectionLeft";
 export default function QuemSomos () {
     return(
     <>
-    <div id="QuemSomos" className="App mx-auto max-w-screen-xl">
+    <div id="QuemSomos" className="App mx-auto max-w-screen-2xl">
         <Header quemSomosBold="font-bold"/>
         <TextImg
         id="inicio"
         tSize="text-4xl"
-        titulo="O Grupo Total Sistema incorpora um espírito ambicioso e resistente. "
+        titulo="O Grupo Total Sistemas incorpora um espírito ambicioso e resistente. "
         p1="Nossa reputação é forjada pela nossa história pioneira, pela excelência da nossa equipe e pela qualidade do nosso trabalho."
         imgSrc={"./imagens/imgQuemSomosPage.png"}
         imgAlt="Quadrado verde"

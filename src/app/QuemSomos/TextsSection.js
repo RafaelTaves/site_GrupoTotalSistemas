@@ -2,7 +2,7 @@ import React from 'react';
 
 function TextsSection() {
   return (
-    <section className="max-w-screen-xl mx-auto px-4 py-12">
+    <section className="mx-auto px-4 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="mb-4">
         <h3 className="mb-6 underline subTitulo-cinza">NOSSA MISSÃO</h3>

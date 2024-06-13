@@ -4,7 +4,7 @@ const ValoresSectionLeft = (props) => {
 
     return (
         <section className="bg-white">
-      <div className="max-w-screen-xl mx-auto px-8 flex flex-col md:flex-row items-center"> {/* Alteração aqui */}
+      <div className="mx-auto px-8 flex flex-col md:flex-row items-center"> {/* Alteração aqui */}
         <div className="md:w-1/2 order-2 md:order-1 mt-8"> {/* Alteração aqui */} 
           <img src='./imagens/retanguloCinza.png' alt="Retângulo Cinza" /> 
         </div>

@@ -12,7 +12,7 @@ const OQueFazemos = () => {
 
     return(
     <>
-    <div id="OQueFazemos" className="App mx-auto max-w-screen-xl">
+    <div id="OQueFazemos" className="App mx-auto max-w-screen-2xl">
         <Header oQueFazemosBold="font-bold"/>
         <TextImg 
         id="inicio"

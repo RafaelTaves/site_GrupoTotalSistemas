@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
 
-const QuemSomos = () => {
+const Quem_somos = () => {
   return (
     <section id="quemSomos" className="py-12 bg-white"> 
-      <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div className="mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 pr-8">
           <h3 className="mb-6 underline subTitulo-cinza">QUEM SOMOS</h3>
           <p className="mb-4 text-4xl customPurple font-bold">
@@ -33,4 +33,4 @@ const QuemSomos = () => {
   );
 };
 
-export default QuemSomos;
+export default Quem_somos;

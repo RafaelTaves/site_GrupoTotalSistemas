@@ -49,7 +49,7 @@ const O_quefazemos = (props) => {
 
   return (
     <section id="O_quefazemos" className="py-12 bg-white">
-    <div className="max-w-screen-xl mx-auto px-4">
+    <div className="mx-auto px-4">
       <h3 className="mb-6 underline subTitulo-cinza">O QUE FAZEMOS</h3>
       <h2 className="text-3xl font-bold mb-8 h5Headline customPurple">{props.titulo}</h2>
       <p className="body1 mb-12">

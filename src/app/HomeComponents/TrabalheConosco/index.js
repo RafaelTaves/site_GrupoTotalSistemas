@@ -4,7 +4,7 @@ import React from 'react';
 function TrabalheConosco() {
   return (
     <section className="py-16">
-      <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div className="mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/3"> 
           <img src="./imagens/imgTrabalheConosco.png"></img>
         </div>

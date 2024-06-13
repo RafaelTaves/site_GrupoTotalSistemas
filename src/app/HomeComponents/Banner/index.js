@@ -10,7 +10,7 @@ const Banner = () => {
     ];
 
     return (
-        <div className='max-w-screen-xl mx-auto px-4'>
+        <div className='mx-auto px-4'>
             <div className="banner flex flex-col md:flex-row md:justify-around md:items-center">
                 {items.map((item, index) => (
                     <div

@@ -38,7 +38,7 @@ function FeedbackCarousel() {
   };
 
   return (
-    <section className="max-w-screen-xl mx-auto px-4 py-12">
+    <section className="mx-auto px-4 py-12">
       <h3 className="mb-6 underline subTitulo-cinza">O QUE DIZEM NOSSOS CLIENTES</h3>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/4 bg-[#204FEC] text-white p-8 rounded-lg">
