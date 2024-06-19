@@ -4,7 +4,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      customBlue: '#29285A',
+      colors: {
+        "custom-red": "#921004",
+        "light-blue": "#009790",
+        "dark-blue": "#00A4EE",
+      }
     },
   },
   variants: {
