@@ -10,7 +10,7 @@ const Banner = () => {
     ];
 
     return (
-        <div className='mx-auto px-4'>
+        <div className='bg-white p-8'>
             <div className="banner flex flex-col md:flex-row md:justify-around md:items-center">
                 {items.map((item, index) => (
                     <div

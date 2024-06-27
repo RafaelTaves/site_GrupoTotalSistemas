@@ -10,7 +10,7 @@ export default function NossosProdutos () {
     return(
         <>
         <div id="NossosProdutos" className="App mx-auto max-w-screen-2xl">
-            <Header />
+            <Header nossosProdutosBold="font-bold"/>
             <TextImg
                 id="inicio"
                 tSize="text-5xl"
@@ -19,6 +19,7 @@ export default function NossosProdutos () {
                 imgSrc={"./imagens/imgNossosProdutos.png"}
                 imgAlt="Medalha"
             />
+            <div className='bg-white py-12 p-8'>
             <h2 className="h5Headline customPurple text-center md:text-left md:h4Headline mb-10">Nossos produtos:</h2>
             <ProdutosBanner 
             bgcolor= "bg-custom-red"
@@ -47,6 +48,7 @@ export default function NossosProdutos () {
             p="A Bluespark é o seu parceiro ideal para a transformação digital para elevar o seu negócio através de software e aplicativos de acordo com a sua realidade e necessidade."
             srcForma="./imagens/imgQuemSomosPage.png"
             />
+            </div>
         </div>
         <Footer />
         </>

@@ -3,8 +3,8 @@ import React from 'react';
 
 const Quem_somos = () => {
   return (
-    <section id="quemSomos" className="py-12 bg-white"> 
-      <div className="mx-auto px-4 flex flex-col md:flex-row items-center">
+    <section id="quemSomos" className="bg-white py-12 p-8"> 
+      <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 pr-8">
           <h3 className="mb-6 underline subTitulo-cinza">QUEM SOMOS</h3>
           <p className="mb-4 text-4xl customPurple font-bold">

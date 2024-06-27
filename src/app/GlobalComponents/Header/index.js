@@ -20,7 +20,7 @@ const Header = (props) => {
           <li><Link href="QuemSomos" className={`hover:text-gray-900 underline ${props.quemSomosBold}`}>Quem somos</Link></li>
           <li><Link href="OQueFazemos" className={`hover:text-gray-900 underline ${props.oQueFazemosBold}`}>O que fazemos</Link> </li>
           <li><Link href="NossosProdutos" className={`hover:text-gray-900 underline ${props.nossosProdutosBold}`}>Nossos produtos</Link></li>
-          <li><Link href="#esg" className={`hover:text-gray-900 underline ${props.esgBold}`}>ESG</Link></li>
+          <li><Link href="ESG" className={`hover:text-gray-900 underline ${props.esgBold}`}>ESG</Link></li>
           <li><Link href="#contatos" className={`hover:text-gray-900 underline ${props.contatosBold}`}>Contatos</Link></li>
         </ul>
       </nav>
@@ -36,8 +36,8 @@ const Header = (props) => {
           <li><Link href="/" className={`hover:text-gray-900 ${props.inicioBold}`}>Início</Link></li>
           <li><Link href="QuemSomos" className={`hover:text-gray-900 ${props.quemSomosBold}`}>Quem somos</Link></li>
           <li><Link href="OQueFazemos" className={`hover:text-gray-900 ${props.oQueFazemosBold}`}>O que fazemos</Link></li>
-          <li><Link href="#nossos-produtos" className={`hover:text-gray-900 ${props.nossosProdutosBold}`}>Nossos produtos</Link></li>
-          <li><Link href="#esg" className={`hover:text-gray-900 ${props.esgBold}`}>ESG</Link></li>
+          <li><Link href="NossosProdutos" className={`hover:text-gray-900 ${props.nossosProdutosBold}`}>Nossos produtos</Link></li>
+          <li><Link href="ESG" className={`hover:text-gray-900 ${props.esgBold}`}>ESG</Link></li>
           <li><Link href="#contatos" className={`hover:text-gray-900 ${props.contatosBold}`}>Contatos</Link></li>
         </ul>
       </div>

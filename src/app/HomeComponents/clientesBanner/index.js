@@ -12,8 +12,8 @@ const ClientesBanner = () => {
   ];
 
   return (
-    <section className="py-12">
-    <div className="mx-auto px-4">
+    <section className="bg-white py-12 p-8">
+    <div className="">
     <div className="flex overflow-x-auto whitespace-nowrap justify-between scrollbar-hide"> 
       {logos.map((logo, index) => (
         <div key={index} className="flex-shrink-0 px-4"> 
