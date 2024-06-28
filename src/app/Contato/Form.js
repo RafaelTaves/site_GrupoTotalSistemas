@@ -1,91 +1,142 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import BadNotification from '../GlobalComponents/Notifications/badNotification';
 
 function ContactForm() {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    company: '',
-    position: '',
-    phone: '',
-  });
+    const [nome, setNome] = useState("")
+    const [sobrenome, setSobrenome] = useState("")
+    const [email, setEmail] = useState("")
+    const [empresa, setEmpresa] = useState("")
+    const [cargo, setCargo] = useState("")
+    const [telefone, setTelefone] = useState("")
+    const [showNotification, setShowNotification] = useState(false);
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const handleChangeNome = (e) => {
+    setNome(e.target.value)
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Lógica para enviar o formulário (integração com API, etc.)
+  const handleChangeSobrenome = (e) => {
+    setSobrenome(e.target.value)
   };
 
+  const handleChangeEmail = (e) => {
+    setEmail(e.target.value)
+  };
+
+  const handleChangeEmpresa = (e) => {
+    setEmpresa(e.target.value)
+  };
+
+  const handleChangeCargo = (e) => {
+    setCargo(e.target.value)
+  };
+
+  const handleChangeTelefone = (e) => {
+    setTelefone(e.target.value)
+  };
+
+  const handleForm = async (e) => {
+    const result = await handleSubmit(e); 
+
+    handleForm(); 
+    setShowNotification(true);
+    setNome("")
+    setSobrenome("")
+    setEmail("")
+    setEmpresa("")
+    setCargo("")
+    setTelefone("")
+    
+  }
+
+    const [state, handleSubmit] = useForm("mzzppnjr");
+
+    const handleCloseNotification = () => {
+        setShowNotification(false);
+      };
+      
   return (
     <section className="bg-white p-8">
       <div className="max-w-screen-2xl">
+            <BadNotification
+              show={showNotification}
+              title="Sucesso"
+              desc="Formulário enviado com sucesso! Te retornaremos em breve."
+              onClose={handleCloseNotification}
+            />
         <div className="flex flex-col-reverse md:flex-row-reverse justify-between items-start">
             <div className="md:w-1/2 order-2 md:order-1 justify-start">  
                 <img src='./imagens/imgFormulario.png' alt="Retângulo Cinza" /> 
             </div>
 
-            <form onSubmit={handleSubmit} className="max-w-xl mx-auto mt-8 md:mt-0 bg-[#DEE2E6] p-8 rounded-xl">
+            <form  onSubmit={handleForm} className="max-w-xl mx-auto mt-8 md:mt-0 bg-[#DEE2E6] p-8 rounded-xl">
                 <h2 className="h5Headline customPurple mb-4">Iremos surpreendê-lo com os resultados que entregamos. Vamos conversar?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div>
                         <label className=''>Nome</label>
                         <input
                         type="text"
-                        name="firstName"
+                        name="Primeiro Nome"
                         placeholder="Nome"
-                        value={formData.firstName}
-                        onChange={handleChange}
+                        value={nome}
+                        onChange={handleChangeNome}
                         className="border rounded-md w-full p-2 mt-2"
+                        required
                         />
                     </div>
                     <div>
                         <label className=''>Sobrenome</label>
                         <input
                         type="text"
-                        name="lastName"
+                        name="Sobrenome"
                         placeholder="Sobrenome"
-                        value={formData.lastName}
-                        onChange={handleChange}
+                        value={sobrenome}
+                        onChange={handleChangeSobrenome}
                         className="border rounded-md w-full mb-4 p-2 mt-2"
+                        required
                         />
                     </div>
                 <div>
                     <label>Email</label>
                     <input
                         type="email"
-                        name="email"
+                        name="Email"
                         placeholder="E-mail"
-                        value={formData.email}
-                        onChange={handleChange}
+                        value={email}
+                        onChange={handleChangeEmail}
                         className="border rounded-md p-2 w-full mb-4 mt-2"
+                        required
                     />
                 </div>
                 <div>
                     <label>Empresa</label>
                     <input
                         type="text"
-                        name="company"
+                        name="Empresa"
                         placeholder="Empresa"
-                        value={formData.company}
-                        onChange={handleChange}
+                        value={empresa}
+                        onChange={handleChangeEmpresa}
                         className="border rounded-md p-2 w-full mt-2"
+                        required
                     />
                 </div>
                 <div>
                     <label>Cargo</label>
                     <div className="mb-4">
                         <select
-                        name="position"
-                        value={formData.position}
-                        onChange={handleChange}
+                        name="Cargo"
+                        value={cargo}
+                        onChange={handleChangeCargo}
                         className="border rounded-md p-2 w-full mt-2"
+                        required
                         >
-                        <option value="">Cargo</option>
-                        {/* Opções de cargo */}
+                        <option value="">Selecione um cargo</option>
+                        <option value="CEO">CEO</option>
+                        <option value="Sócio">Sócio</option>
+                        <option value="Diretor">Diretor</option>
+                        <option value="Gerente">Gerente</option>
+                        <option value="Gestor">Gestor</option>
                         </select>
                     </div>
                 </div>
@@ -94,17 +145,18 @@ function ContactForm() {
                     <label>Telefone</label>
                     <input
                         type="tel"
-                        name="phone"
+                        name="Telefone"
                         placeholder="Telefone"
-                        value={formData.phone}
-                        onChange={handleChange}
+                        value={telefone}
+                        onChange={handleChangeTelefone}
                         className="border rounded-md p-2 w-full mt-2"
+                        required
                     />
                     </div>
                 </div>
 
                 <div className="flex items-center mb-4">
-                    <input type="checkbox" id="privacyPolicy" className="mr-2" />
+                    <input required type="checkbox" id="privacyPolicy" className="mr-2" />
                     <label htmlFor="privacyPolicy" className="text-sm text-gray-600">
                     Ao enviar este formulário, você concorda com a nossa Política de Privacidade
                     </label>
