@@ -18,7 +18,7 @@ function App() {
       <ClientesBanner />
       <Quem_somos />
       <O_quefazemos titulo={"Pensamos no futuro. E pensamos em você."} />
-      <Banner/>
+      <Banner color="bg-[#D06F3D]" colorText="customPurple"/>
       <NossosProdutos />
       <FeedbackCarousel />
       <TrabalheConosco />
