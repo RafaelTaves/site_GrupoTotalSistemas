@@ -38,6 +38,7 @@ export default function NossosProdutos () {
             titulo="Plataforma online que agiliza a lavratura da escritura e procuração!"
             p="A Total Sistema simplifica a intermediação entre clientes e cartórios por meio da tecnologia para você poder otimizar ao máximo o seu cartório."
             srcForma="./imagens/meioCirculo.png"
+            link="https://www.instagram.com/totalsistemasoficial/"
             />
             <ProdutosBanner 
             bgcolor= "bg-dark-blue"
@@ -47,6 +48,7 @@ export default function NossosProdutos () {
             titulo="Criar soluções que se adapta à sua realidade e resolve problemas reais."
             p="A Bluespark é o seu parceiro ideal para a transformação digital para elevar o seu negócio através de software e aplicativos de acordo com a sua realidade e necessidade."
             srcForma="./imagens/imgQuemSomosPage.png"
+            link="https://www.bluespark.dev.br"
             />
             </div>
         </div>

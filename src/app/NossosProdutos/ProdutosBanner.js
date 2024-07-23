@@ -12,7 +12,7 @@ export default function ProdutosBanner (props) {
                     <p className="body3 text-white underline mb-8">{props.subtitulo}</p>
                     <h4 className="h6Headline text-white md:h4Headline mb-4">{props.titulo}</h4>
                     <p className="body2 text-white md:body1">{props.p}</p>
-                    <Link href="">
+                    <Link href={`${props.link}`} target="_blank">
                     <button className={`mt-6 px-6 py-2 bg-white border rounded-full border-white ${props.txtcolor} flex items-center gap-2`}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
