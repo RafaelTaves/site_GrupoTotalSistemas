@@ -7,14 +7,14 @@ function TextsSection() {
         <div className="mb-4">
         <h3 className="mb-6 underline subTitulo-cinza">NOSSA MISSÃO</h3>
           <p className="h6Headline customPurple">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu metus tincidunt, efficitur nisl sodales, sagittis metus. Nullam scelerisque magna eu hendrerit convallis. In commodo eu mi vel dapibus. Etiam blandit elit nibh, vel iaculis nibh egestas nec. Cras aliquam magna vel porttitor maximus.
+          Promover inovação tecnológica e excelência em serviços de TI, atendendo às necessidades de nossos clientes com soluções personalizadas e eficientes, sempre com transparência e foco na satisfação do cliente.
           </p>
         </div>
 
         <div className="mb-4">
           <h3 className="mb-6 underline subTitulo-cinza">NOSSA VISÃO</h3>
           <p className="h6Headline customPurple">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu metus tincidunt, efficitur nisl sodales, sagittis metus. Nullam scelerisque magna eu hendrerit convallis. In commodo eu mi vel dapibus. Etiam blandit elit nibh, vel iaculis nibh egestas nec. Cras aliquam magna vel porttitor maximus.
+          Ser referência no mercado de TI, reconhecida por nossa integridade, inovação e qualidade, proporcionando liberdade criativa e um ambiente de trabalho colaborativo que inspira crescimento e desenvolvimento contínuo.
           </p>
         </div>
       </div>

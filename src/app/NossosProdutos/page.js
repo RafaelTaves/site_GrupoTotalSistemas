@@ -29,6 +29,7 @@ export default function NossosProdutos () {
             titulo="Tornando os restaurantes um lugar incrível!"
             p="O Inffel está cheio de soluções inteligentes e intuitivas para você poder otimizarão máximo o seu food-service."
             srcForma="./imagens/imgInffelBanner.png"
+            link="https://www.instagram.com/inffelsistemas/"
             />
             <ProdutosBanner 
             bgcolor= "bg-light-blue"
