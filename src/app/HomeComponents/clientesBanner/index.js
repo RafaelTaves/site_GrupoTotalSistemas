@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClientesBanner = () => {
   const logos = [
-    { src: './imagens/Logos/marinha-brasil-logo-0.png', alt: 'Marinha do Brasil' },
+    { src: './imagens/Logos/marinha-brasil-logo-2.png', alt: 'Marinha do Brasil' },
     { src: './imagens/Logos/lojaFlaLogo.png', alt: 'Loja Flamengo' },
     { src: './imagens/Logos/NoiLogo.png', alt: 'Noi' },
     { src: './imagens/Logos/stjd-2.png', alt: '' },
@@ -12,7 +12,7 @@ const ClientesBanner = () => {
   ];
 
   return (
-    <section className="bg-white py-12 p-8">
+    <section className="bg-white py-4 p-8">
     <div className="">
     <div className="flex overflow-x-auto whitespace-nowrap justify-between scrollbar-hide"> 
       {logos.map((logo, index) => (

@@ -19,7 +19,7 @@ export default function NossosProdutos () {
                 imgSrc={"./imagens/imgNossosProdutos.png"}
                 imgAlt="Medalha"
             />
-            <div className='bg-white py-12 p-8'>
+            <div className='bg-white py-4 p-8'>
             <h2 className="h5Headline customPurple text-center md:text-left md:h4Headline mb-10">Nossos produtos:</h2>
             <ProdutosBanner 
             bgcolor= "bg-custom-red"

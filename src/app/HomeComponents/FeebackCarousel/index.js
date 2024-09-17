@@ -38,7 +38,7 @@ function FeedbackCarousel() {
   };
 
   return (
-    <section className="bg-white py-12 p-8">
+    <section className="bg-white py-4 p-8">
       <h3 className="mb-6 underline subTitulo-cinza">O QUE DIZEM NOSSOS CLIENTES</h3>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/4 bg-[#204FEC] text-white p-8 rounded-lg">

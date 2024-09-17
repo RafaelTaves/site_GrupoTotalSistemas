@@ -3,7 +3,7 @@ import React from 'react';
 
 function TrabalheConosco() {
   return (
-    <section className="bg-white py-12 p-8">
+    <section className="bg-white py-4 p-8">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/3"> 
           <img src="./imagens/imgTrabalheConosco.png"></img>
