@@ -1,12 +1,13 @@
 import React from 'react';
 import './OQueFazemos.css'
+import Link from 'next/link';
 
 const O_quefazemos = (props) => {
   const services = [
     {
       icon: './imagens/iconeEtiqueta.ico', 
-      title: 'Locação de Impressoras de Etiquetas & Computadores',
-      description: 'O melhor compromisso entre redução de custos e serviço de qualidade. Permite que se foque inteiramente no seu negócio, deixando a responsabilidade da informática para nós.',
+      title: 'Outsorcing',
+      description: 'Locação de Impressoras de Etiquetas & Computadores. O melhor compromisso entre redução de custos e serviço de qualidade. Permite que se foque inteiramente no seu negócio, deixando a responsabilidade da informática para nós.',
     },
     {
       icon: './imagens/iconeLapis.ico',
@@ -79,6 +80,7 @@ const O_quefazemos = (props) => {
               <h3 className="h6Headline text-left mb-4">{service.title}</h3>
               <p className="body1 text-left">{service.description}</p>
               {service.isFeatured && (
+                <Link href="Contato">
                 <button className="mt-4 px-4 py-2 botaoV flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
@@ -86,6 +88,7 @@ const O_quefazemos = (props) => {
   
                   Entre em contato
                 </button>
+                </Link>
               )}
             </div>
           </div>

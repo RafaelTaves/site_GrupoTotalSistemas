@@ -34,7 +34,7 @@ export default function QuemSomos () {
         />
         <NossosProdutos/>
         <TextsSection />
-        <ValoresSection
+        {/* <ValoresSection
         subtitulo="# TRANSPARÊNCIA" 
         titulo="Primamos pela transparência em todas as nossas interações, seja com colaboradores, clientes ou parceiros."
         p1="Acreditamos que a honestidade é uma virtude fundamental. Esse compromisso com a verdade é conduzido com cuidado e empatia."
@@ -54,8 +54,8 @@ export default function QuemSomos () {
         p1="Como já explicamos algumas vezes, somos inimigos da média, por isso tudo o que fazemos é sustentado por uma cultura de integridade, credibilidade e positividade:"
         imgSrc={"./imagens/imgQuemSomosPage.png"}
         imgAlt="Quadrado Verde"
-        />
-        <TrabalheConosco />
+        /> */}
+        {/* <TrabalheConosco /> */}
     </div>
     <Footer/>
     </>
