@@ -25,21 +25,19 @@ function Footer() {
                 </ul>
               </div>
               <div className="md:flex md:gap-8">
-                <div className='mb-4'>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mb-2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                    </svg>
-                  <h4 className="font-bold mb-2">Niterói</h4>
-                  <p className='body3'>Rua XV de Novembro, 90, Sala 1403 Centro, Niterói - RJ CEP 24020-125</p>
+                <div className='mb-2'>
+                  <a href="https://www.instagram.com/inffelsistemas/?hl=pt" className="text-white mr-4">
+                    <FaInstagram className="w-8 h-8" />
+                  </a>
+                  <h4 className="font-bold mb-2">Inffel</h4>
+                  <p className='body3'>Nos siga no Instagram e acompanhe todas as nossas novidades!</p>
                 </div>
-                <div className='mb-4'>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mb-2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                    </svg>
-                  <h4 className="font-bold mb-2">Rio de Janeiro</h4>
-                  <p className='body3'>Av. Almirante Barroso, 81 Centro, Rio de Janeiro - RJ CEP 20031-004</p>
+                <div className='mb-2'>
+                  <a href="https://www.instagram.com/totalsistemasoficial/" className="text-white mr-4">
+                    <FaInstagram className="w-8 h-8" />
+                  </a>
+                  <h4 className="font-bold mb-2">Total Sistemas</h4>
+                  <p className='body3'>Siga-nos no Instagram para acompanhar de perto nossas atualizações!</p>
                 </div>
 
                 <div>
@@ -63,7 +61,7 @@ function Footer() {
             </div>
             <div className='ms-3 md:flex md:mt-8 md:justify-between'>
                   <div className='text-sm mb-8'>
-                    <p>&copy; 2023 GRUPO TOTAL SISTEMA</p>
+                    <p>&copy; 2024 GRUPO TOTAL SISTEMA</p>
                   </div>
                   <div className='mb-2'>
                     <a href="#Header" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

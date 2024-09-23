@@ -8,7 +8,9 @@ import TrabalheConosco from './HomeComponents/TrabalheConosco';
 import Header from './GlobalComponents/Header';
 import Banner from './HomeComponents/Banner';
 import Quem_somos from './HomeComponents/Quem_somos';
-import HomeBanner from './HomeComponents/HomeBanner'
+import HomeBanner from './HomeComponents/HomeBanner';
+import HomeBannerMobile from './HomeComponents/HomeBannerMobile';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Header inicioBold="font-bold"/>
       </div>
       <HomeBanner/>
+      <HomeBannerMobile />
       <div className="App mx-auto max-w-screen-2xl">
         {/* <MainSection /> */}
         {/* <ClientesBanner /> */}
