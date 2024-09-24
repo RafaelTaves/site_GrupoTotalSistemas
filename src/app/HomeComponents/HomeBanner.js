@@ -1,21 +1,15 @@
 import React from 'react';
 
-export default function HomeBanner() {
+export default function HomeBanner(props) {
   return (
-    <div
-      className="hidden xl:block relative w-full h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('./imagens/NovoBannerCorEstatica.png')" }}
-    >
-      <div className="absolute inset-0 bg-black bg-opacity-0 flex items-center justify-start px-8 md:px-3 2xl:px-5 shadow-md">
-        <div className="text-black max-w-lg 2xl:max-w-xl">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl text-sky-800 h4Headline leading-[2.5]">
-            Somos o seu parceiro inovador, ágil e experiente em tecnologia e serviços de TI.
-          </h1>
-          <p className="mt-4 body1 leading-loose">
-            Compreendemos sua empresa em primeiro lugar, direcionando nossa abordagem para suas necessidades específicas. Em seguida, integramos soluções tecnológicas para impulsionar o seu sucesso.
-          </p>
-          <a href="#quemSomos">
-            <button className="mt-6 px-6 py-2 botao flex items-center gap-2 text-black rounded-full shadow-lg">
+    <div className="flex flex-col md:flex-row h-screen w-full">
+      <div className="md:w-2/5 w-full bg-blue-500 flex flex-col justify-center items-start text-white p-10">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white">{props.h1}</h1>
+        <p className="text-base md:text-lg body1 mb-6 text-white">
+        {props.p}
+        </p>
+        {props.botao === true ? <a href="#quemSomos">
+            <button className="mt-6 px-6 py-2 botao flex gap-2 text-white rounded-full shadow-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -32,9 +26,17 @@ export default function HomeBanner() {
               </svg>
               Conheça mais
             </button>
-          </a>
-        </div>
+          </a> : ""}
+      </div>
+
+      <div className="md:w-3/5 w-full">
+        <img 
+          src="./imagens/bannerNiteroi.jpg" 
+          alt="Banner" 
+          className="h-full w-full object-cover" 
+        />
       </div>
     </div>
   );
-}
+};
+

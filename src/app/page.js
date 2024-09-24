@@ -19,7 +19,11 @@ function App() {
       <div className="App mx-auto max-w-screen-2xl">
         <Header inicioBold="font-bold"/>
       </div>
-      <HomeBanner/>
+      <HomeBanner
+      h1="Somos o seu parceiro inovador, ágil e experiente em tecnologia e serviços de TI."
+      p="Compreendemos sua empresa em primeiro lugar, direcionando nossa abordagem para suas necessidades específicas. Em seguida, integramos soluções tecnológicas para impulsionar o seu sucesso."
+      botao = {true}
+      />
       <HomeBannerMobile />
       <div className="App mx-auto max-w-screen-2xl">
         {/* <MainSection /> */}
