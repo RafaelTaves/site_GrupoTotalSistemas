@@ -2,8 +2,8 @@ import React from 'react';
 
 function SolucoesPersonalizadas() {
   return (
-    <section className="mt-28 mx-auto p-8">
-      <h2 className="font-bold text-left h5Headline lg:h4Headline customPurple mb-8">
+    <section className="mt-10 mx-auto p-8">
+      <h2 className="font-bold text-left h5Headline customPurple mb-8">
         Somos especializados em fornecer soluções personalizadas para impulsionar o seu sucesso.
       </h2>
 

@@ -1,11 +1,10 @@
 import Footer from "../GlobalComponents/Footer";
 import Header from "../GlobalComponents/Header";
 import TextImg from "../GlobalComponents/Text&Img";
+import HomeBanner from "../HomeComponents/HomeBanner";
 import NossosProdutos from "../HomeComponents/NossosProdutos";
-import TrabalheConosco from "../HomeComponents/TrabalheConosco";
 import TextsSection from "./TextsSection";
-import ValoresSection from "./ValoresSection";
-import ValoresSectionLeft from "./ValoresSectionLeft";
+
 
 
 export default function QuemSomos () {
@@ -13,15 +12,15 @@ export default function QuemSomos () {
     <>
     <div id="QuemSomos" className="App mx-auto max-w-screen-2xl">
         <Header quemSomosBold="font-bold"/>
-        <TextImg
-        id="inicio"
-        tSize="text-4xl"
-        titulo="O Grupo Total Sistemas incorpora um espírito ambicioso e resistente. "
-        p1="Nossa reputação é forjada pela nossa história pioneira, pela excelência da nossa equipe e pela qualidade do nosso trabalho."
-        imgSrc={"./imagens/imgQuemSomosPage.png"}
-        imgAlt="Quadrado verde"
+        <HomeBanner
+        bg = "bg-light-blue-II"
+        textH1 = "text-mid-blue"
+        textP = "text-black"
+        h1="O Grupo Total Sistemas incorpora um espírito ambicioso e resistente."
+        p="Nossa reputação é forjada pela nossa história pioneira, pela excelência da nossa equipe e pela qualidade do nosso trabalho."
+        imagem = "./imagens/bannerNiteroi.jpg" // alterar imagem
+        botao = {false}
         />
-
         <TextImg 
         subtitulo="NOSSA HISTÓRIA"
         tSize="text-3xl"

@@ -8,6 +8,9 @@ module.exports = {
         "custom-red": "#921004",
         "light-blue": "#009790",
         "dark-blue": "#00A4EE",
+        "light-blue-II": "#bfd6ef",
+        "dark-green": "#009379",
+        "mid-blue": "#38bdf8"
       }
     },
   },

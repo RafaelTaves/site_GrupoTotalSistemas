@@ -7,6 +7,7 @@ import ComoFazemos from './ComoFazemos'
 import ClientesBanner from '../HomeComponents/clientesBanner'
 import FeedbackCarousel from '../HomeComponents/FeebackCarousel'
 import Footer from '../GlobalComponents/Footer'
+import HomeBanner from '../HomeComponents/HomeBanner'
 
 const OQueFazemos = () => {
 
@@ -14,12 +15,14 @@ const OQueFazemos = () => {
     <>
     <div id="OQueFazemos" className="App mx-auto max-w-screen-2xl">
         <Header oQueFazemosBold="font-bold"/>
-        <TextImg 
-        id="inicio"
-        tSize="text-5xl"
-        titulo="Onde a experiência encontra a inovação."
-        p1="Fornecemos inteligência estratégica, combinada com a tecnologia e a experiência essenciais, para resolver os desafios específicos do seu negócio."
-        imgSrc={"./imagens/landFazemos.png"}
+        <HomeBanner
+        bg = "bg-light-blue-II"
+        textH1 = "text-mid-blue"
+        textP = "text-black"
+        h1="Onde a experiência encontra a inovação."
+        p="Fornecemos inteligência estratégica, combinada com a tecnologia e a experiência essenciais, para resolver os desafios específicos do seu negócio."
+        imagem = "./imagens/bannerNiteroi.jpg" // alterar imagem
+        botao = {false}
         />
         <SolucoesPersonalizadas />
         <O_quefazemos titulo="Descubra como podemos elevar o seu negócio a novos patamares." />
