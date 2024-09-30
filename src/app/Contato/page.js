@@ -12,7 +12,7 @@ export default function Contato () {
     <div id="NossosProdutos" className="App mx-auto max-w-screen-2xl">
         <Header contatosBold="font-bold"/>  
         <Form />     
-        <Banner color="bg-[#71A064]" colorText="text-white"/>
+        <Banner color="bg-light-green-I" colorText="text-white"/>
         <FeedbackCarousel /> 
     </div>
     <Footer />

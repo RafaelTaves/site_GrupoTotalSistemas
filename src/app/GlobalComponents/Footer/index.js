@@ -53,8 +53,8 @@ function Footer() {
                       </a>
                   </div>
                   <div className='mb-6'>
-                    <p><a href="#" className="body3 underline">Política de Proteção de Dados</a></p>
-                    <a href="#" className="body3 underline">Política de Cookies</a>
+                    <p><Link href="/PoliticaDePrivacidade" className="body3 underline">Política de Proteção de Dados</Link></p>
+                    <Link href="/PoliticaDePrivacidade" className="body3 underline">Política de Cookies</Link>
                   </div>                  
                 </div>
               </div>

@@ -18,8 +18,8 @@ function App() {
       </div>
       <HomeBanner
       bg = "bg-light-blue-II"
-      textH1 = "text-mid-blue"
-      textP = "text-black"
+      textH1 = "text-white"
+      textP = "text-white"
       h1="Somos o seu parceiro inovador, ágil e experiente em tecnologia e serviços de TI."
       p="Compreendemos sua empresa em primeiro lugar, direcionando nossa abordagem para suas necessidades específicas. Em seguida, integramos soluções tecnológicas para impulsionar o seu sucesso."
       imagem = "./imagens/bannerNiteroi.jpg"

@@ -45,7 +45,7 @@ export default function NossosCompromissos () {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold mb-2 customPurple">{card.paragrafo}</h3>
+              <h3 className="text-lg font-bold mb-2 customPurple">{card.titulo}</h3>
               <p className="text-gray-900">{card.paragrafo}</p>
             </div>
           </div>

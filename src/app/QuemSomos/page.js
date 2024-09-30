@@ -13,12 +13,12 @@ export default function QuemSomos () {
     <div id="QuemSomos" className="App mx-auto max-w-screen-2xl">
         <Header quemSomosBold="font-bold"/>
         <HomeBanner
-        bg = "bg-light-blue-II"
-        textH1 = "text-mid-blue"
-        textP = "text-black"
+        bg = "bg-orange-400"
+        textH1 = "text-white"
+        textP = "text-white"
         h1="O Grupo Total Sistemas incorpora um espírito ambicioso e resistente."
         p="Nossa reputação é forjada pela nossa história pioneira, pela excelência da nossa equipe e pela qualidade do nosso trabalho."
-        imagem = "./imagens/bannerNiteroi.jpg" // alterar imagem
+        imagem = "./imagens/stockPhotoAboutUs.jpg" // alterar imagem
         botao = {false}
         />
         <TextImg 

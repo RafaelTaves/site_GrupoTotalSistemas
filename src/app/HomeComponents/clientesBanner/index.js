@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClientesBanner = () => {
   const logos = [
-    { src: './imagens/Logo_of_the_Brazilian_Navy.png', alt: 'Marinha do Brasil' },
+    { src: './imagens/Logos/LogoMarinhaMaior3.png', alt: 'Marinha do Brasil' },
     { src: './imagens/Logos/NoiLogo.png', alt: 'Noi' },
     { src: './imagens/Logos/stjd-2.png', alt: '' },
     { src: './imagens/Logos/lojaFlaLogo.png', alt: 'Loja Flamengo' },

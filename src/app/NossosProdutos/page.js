@@ -12,12 +12,12 @@ export default function NossosProdutos () {
         <div id="NossosProdutos" className="App mx-auto max-w-screen-2xl">
             <Header nossosProdutosBold="font-bold"/>
             <HomeBanner
-            bg = "bg-light-blue-II"
-            textH1 = "text-mid-blue"
-            textP = "text-black"
+            bg = "bg-rose-400"
+            textH1 = "text-white"
+            textP = "text-white"
             h1="Para assegurar o seu parceiro ideal, contamos com um ecossistema integrado de atuação."
             p="Comprometemo-nos com o desenvolvimento de produtos e soluções digitais de alta qualidade, oferecendo preços competitivos."
-            imagem = "./imagens/bannerNiteroi.jpg" // alterar imagem
+            imagem = "./imagens/stockPhotoTech.jpg" // alterar imagem
             botao = {false}
             />
             <div className='bg-white py-4 p-8'>

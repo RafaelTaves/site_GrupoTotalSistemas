@@ -13,7 +13,7 @@ export default function ESG () {
     <div id="NossosProdutos" className="App mx-auto max-w-screen-2xl">
         <Header esgBold="font-bold"/>
         <HomeBanner
-        bg = "bg-dark-green"
+        bg = "bg-light-green-I"
         textH1 = "text-white"
         textP = "text-white"
         h1="Nossos 30 anos de história atestam nosso compromisso em considerar o futuro ao cuidar do presente."

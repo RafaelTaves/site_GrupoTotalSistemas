@@ -16,12 +16,12 @@ const OQueFazemos = () => {
     <div id="OQueFazemos" className="App mx-auto max-w-screen-2xl">
         <Header oQueFazemosBold="font-bold"/>
         <HomeBanner
-        bg = "bg-light-blue-II"
-        textH1 = "text-mid-blue"
-        textP = "text-black"
+        bg = "bg-amber-400"
+        textH1 = "text-white"
+        textP = "text-white"
         h1="Onde a experiência encontra a inovação."
         p="Fornecemos inteligência estratégica, combinada com a tecnologia e a experiência essenciais, para resolver os desafios específicos do seu negócio."
-        imagem = "./imagens/bannerNiteroi.jpg" // alterar imagem
+        imagem = "./imagens/stockPhotoHandShake.jpg" // alterar imagem
         botao = {false}
         />
         <SolucoesPersonalizadas />
