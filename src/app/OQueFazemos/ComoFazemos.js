@@ -4,7 +4,7 @@ const ComoFazemos = () => {
 
   return (
     <section id="ComoFazemos" className='bg-white py-4 p-8'>
-      <div className="mx-auto px-4 text-left">
+      <div className="mx-auto text-left">
         <h3 className="mb-6 underline subTitulo-cinza">COMO FAZEMOS</h3>
         <h2 className="h5Headline customPurple mb-4"> Nossa metodologia nos permite entregar resultadosque atendam aos desafios específicos do negócio. E impulsione a inovação em todas as direções</h2>
         <p className='body1'>Isso nos possibilita obter uma compreensão profunda dos requisitos de seu negócio, garantindo que sua tecnologia esteja perfeitamente alinhada com cada objetivo.</p>

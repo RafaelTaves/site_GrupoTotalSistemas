@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HomeBanner(props) {
   return (
-    <div className="flex flex-col md:flex-row h-screen w-full">
+    <div className="flex flex-col md:flex-row min-h-3/4 w-full">
       <div className={`md:w-2/5 w-full ${props.bg} flex flex-col justify-center items-start text-white p-10`}>
         <h1 className={`text-3xl md:text-5xl font-bold mb-4 ${props.textH1}`}>{props.h1}</h1>
         <p className={`text-base md:text-lg body1 mb-6 ${props.textP}`}>

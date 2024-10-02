@@ -10,7 +10,7 @@ const Header = (props) => {
   };
 
   return (
-    <header id="Header" className="flex items-center justify-between p-6">
+    <header id="Header" className="flex items-center justify-between pt-4 pb-2 px-6">
       <div className="flex items-center">
         <img src='./imagens/logo.png' alt="Logo" className="h-10 w-auto" />
       </div>
