@@ -28,8 +28,8 @@ export default function QuemSomos () {
         p1="Nosso fundador, Marcelo Canuto, com mais de 30 anos de expertise em desenvolvimento de sistemas, iniciou este legado em parceria com seu filho Marcelo. Atualmente, o grupo engloba uma equipe diversificada e opera em todo o território brasileiro."
         p2="Além das soluções de TI que oferecemos, estabelecemos parcerias sólidas no mercado, agregando significativo valor aos nossos clientes."
         p3="Atualmente, contamos com uma carteira de aproximadamente 500 CNPJs, evidenciando a amplitude e a confiança que conquistamos no cenário empresarial."
-        imgSrc={"./imagens/borboletaVerde.png"}
-        imgAlt="Borboleta Verde"
+        imgSrc={"./imagens/BorboletaFotos.png"}
+        imgAlt="Borboleta de fotos"
         />
         <NossosProdutos/>
         <TextsSection />

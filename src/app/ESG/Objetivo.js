@@ -5,12 +5,12 @@ export default function Objetivo () {
 
     return(
     <>
-    <section className="bg-white p-8" id="objetivo">
+    <section className="bg-white pt-16 p-8 max-w-7xl mx-auto" id="objetivo">
       <div className="max-w-screen-2xl">
         <div className="flex flex-col md:flex-row md:items-center">
           <div className="md:w-1/2 text-left md:pr-8 mb-8 md:mb-0">
-          <h3 className='mb-6 underline subTitulo-cinza'>OBJETIVO</h3>
-            <h2 className="customPurple h5Headline md:h4Headline leading-tight">
+          <h3 className='mb-6 underline subTitulo-cinza mt-4 md:mt-0'>OBJETIVO</h3>
+            <h2 className="customPurple h5Headline md:h4Headline md:text-[40px]  lg:text-[44px] leading-tight">
               Construir valor sustentável em parceria com os nossos clientes, nossa equipe e as comunidades em que atuamos. Sempre.
             </h2>
           </div>

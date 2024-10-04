@@ -4,7 +4,6 @@ import FeedbackCarousel from './HomeComponents/FeebackCarousel';
 import Footer from './GlobalComponents/Footer';
 import TrabalheConosco from './HomeComponents/TrabalheConosco';
 import Header from './GlobalComponents/Header';
-import Banner from './HomeComponents/Banner';
 import Quem_somos from './HomeComponents/Quem_somos';
 import HomeBanner from './HomeComponents/HomeBanner';
 
@@ -28,7 +27,7 @@ function App() {
       <div className="App mx-auto max-w-screen-2xl">
         <Quem_somos />
         <O_quefazemos titulo={"Pensamos no futuro. E pensamos em você."} />
-        <Banner color="bg-[#D06F3D]" colorText="customPurple"/>
+        {/* <Banner color="bg-[#D06F3D]" colorText="customPurple"/> */}
         <NossosProdutos />
         <FeedbackCarousel />
         <TrabalheConosco />

@@ -9,11 +9,11 @@ import FeedbackCarousel from '../HomeComponents/FeebackCarousel';
 export default function Contato () {
     return(
     <>
-    <div id="NossosProdutos" className="App mx-auto max-w-screen-2xl">
+    <div id="NossosProdutos" className="App">
         <Header contatosBold="font-bold"/>  
         <Form />     
-        <Banner color="bg-light-green-I" colorText="text-white"/>
-        <FeedbackCarousel /> 
+        {/* <Banner color="bg-light-green-I" colorText="text-white"/>
+        <FeedbackCarousel />  */}
     </div>
     <Footer />
     </>

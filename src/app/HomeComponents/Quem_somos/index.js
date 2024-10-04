@@ -3,11 +3,11 @@ import React from 'react';
 
 const Quem_somos = () => {
   return (
-    <section id="quemSomos" className="bg-white py-4 p-8"> 
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 pr-8">
+    <section id="quemSomos" className="bg-white pt-16 p-8 max-w-7xl mx-auto"> 
+      <div className="flex flex-col md:flex-row">
+        <div className="md:w-1/2 pr-8 pt-10">
           <h3 className="mb-6 underline subTitulo-cinza">QUEM SOMOS</h3>
-          <p className="mb-4 text-4xl customPurple font-bold">
+          <p className="mb-4 text-4xl customPurple title">
             Com raízes familiares, acumulamos mais de duas décadas de expertise na oferta de serviços e soluções em TI.
           </p>
           <p className="mb-4">

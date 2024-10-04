@@ -20,8 +20,8 @@ export default function NossosProdutos () {
             imagem = "./imagens/stockPhotoTech.jpg" // alterar imagem
             botao = {false}
             />
-            <div className='bg-white py-4 p-8'>
-            <h2 className="h5Headline customPurple text-center md:text-left md:h4Headline mb-10">Nossos produtos:</h2>
+            <div className='bg-white py-4 p-8 max-w-7xl mx-auto'>
+            <h2 className="h5Headline customPurple text-center md:text-left md:h4Headline mb-5 max-w-7xl mx-auto">Nossos produtos:</h2>
             <ProdutosBanner 
             bgcolor= "bg-dark-blue"
             txtcolor="text-dark-blue"

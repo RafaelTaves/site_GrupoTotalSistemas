@@ -2,7 +2,7 @@ import React from 'react';
 
 function SolucoesPersonalizadas() {
   return (
-    <section className="mt-10 mx-auto p-8">
+    <section className="mt- mx-auto pt-16 p-8 max-w-7xl">
       <h2 className="font-bold text-left h5Headline customPurple mb-8">
         Somos especializados em fornecer soluções personalizadas para impulsionar o seu sucesso.
       </h2>

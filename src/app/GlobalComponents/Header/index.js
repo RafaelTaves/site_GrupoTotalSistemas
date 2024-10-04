@@ -10,7 +10,7 @@ const Header = (props) => {
   };
 
   return (
-    <header id="Header" className="flex items-center justify-between pt-4 pb-2 px-6">
+    <header id="Header" className="flex items-center justify-between pt-4 pb-2 px-6 max-w-7xl mx-auto">
       <div className="flex items-center">
         <img src='./imagens/logo.png' alt="Logo" className="h-10 w-auto" />
       </div>
@@ -19,7 +19,7 @@ const Header = (props) => {
           <li><Link href="/" className={`hover:text-gray-900 underline ${props.inicioBold}`}>Início</Link></li>
           <li><Link href="QuemSomos" className={`hover:text-gray-900 underline ${props.quemSomosBold}`}>Quem somos</Link></li>
           <li><Link href="OQueFazemos" className={`hover:text-gray-900 underline ${props.oQueFazemosBold}`}>O que fazemos</Link> </li>
-          <li><Link href="NossosProdutos" className={`hover:text-gray-900 underline ${props.nossosProdutosBold}`}>Nossos produtos</Link></li>
+          {/* <li><Link href="NossosProdutos" className={`hover:text-gray-900 underline ${props.nossosProdutosBold}`}>Nossos produtos</Link></li> */}
           <li><Link href="ESG" className={`hover:text-gray-900 underline ${props.esgBold}`}>ESG</Link></li>
           <li><Link href="Contato" className={`hover:text-gray-900 underline ${props.contatosBold}`}>Contatos</Link></li>
         </ul>
@@ -36,7 +36,7 @@ const Header = (props) => {
           <li><Link href="/" className={`hover:text-gray-900 ${props.inicioBold}`}>Início</Link></li>
           <li><Link href="QuemSomos" className={`hover:text-gray-900 ${props.quemSomosBold}`}>Quem somos</Link></li>
           <li><Link href="OQueFazemos" className={`hover:text-gray-900 ${props.oQueFazemosBold}`}>O que fazemos</Link></li>
-          <li><Link href="NossosProdutos" className={`hover:text-gray-900 ${props.nossosProdutosBold}`}>Nossos produtos</Link></li>
+          {/* <li><Link href="NossosProdutos" className={`hover:text-gray-900 ${props.nossosProdutosBold}`}>Nossos produtos</Link></li> */}
           <li><Link href="ESG" className={`hover:text-gray-900 ${props.esgBold}`}>ESG</Link></li>
           <li><Link href="Contato" className={`hover:text-gray-900 ${props.contatosBold}`}>Contatos</Link></li>
         </ul>

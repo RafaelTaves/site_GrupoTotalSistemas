@@ -1,5 +1,4 @@
 import React from 'react'
-import TextImg from '../GlobalComponents/Text&Img'
 import Header from '../GlobalComponents/Header'
 import SolucoesPersonalizadas from './SolucoesPersonalizadas'
 import O_quefazemos from '../HomeComponents/OQueFazemos'

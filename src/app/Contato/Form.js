@@ -57,7 +57,7 @@ function ContactForm() {
       };
       
   return (
-    <section className="bg-white p-8">
+    <section className="bg-white pt-16 p-8 max-w-7xl mx-auto">
       <div className="max-w-screen-2xl">
             <BadNotification
               show={showNotification}
@@ -67,7 +67,7 @@ function ContactForm() {
             />
         <div className="flex flex-col-reverse md:flex-row-reverse justify-between items-start">
             <div className="md:w-1/2 order-2 md:order-1 justify-start">  
-                <img src='./imagens/imgFormulario.png' alt="Retângulo Cinza" /> 
+                <img src='./imagens/imgForm2.png' alt="Retângulo Cinza" /> 
             </div>
 
             <form  onSubmit={handleForm} className="max-w-xl mx-auto mt-8 md:mt-0 bg-[#DEE2E6] p-8 rounded-xl">

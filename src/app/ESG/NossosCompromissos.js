@@ -32,7 +32,7 @@ export default function NossosCompromissos () {
 
   return(
   <>
-   <section id="O_quefazemos" className="bg-white py-4 p-8">
+   <section id="O_quefazemos" className="bg-white pt-16 p-8 max-w-7xl mx-auto">
       <div className="">
           <h3 className="mb-6 underline subTitulo-cinza">NOSSOS COMPROMISSOS</h3>
           <h2 className="font-bold mb-8 h5Headline customPurple">Nossa estratégia de Responsabilidade se fundamenta em quatro pilares de atuação:</h2> 

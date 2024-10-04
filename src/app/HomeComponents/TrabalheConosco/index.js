@@ -4,7 +4,7 @@ import React from 'react';
 
 function TrabalheConosco() {
   return (
-    <section className="bg-white py-4 p-8">
+    <section className="bg-white pt-16 p-8 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/3"> 
           <img src="./imagens/imgTrabalheConosco.png"></img>

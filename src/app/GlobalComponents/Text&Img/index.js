@@ -4,7 +4,7 @@ const TextImg = (props) => {
 
 
   return (
-    <div id={`${props.id}`} className="flex flex-col md:flex-row items-center justify-between p-8 bg-white">
+    <div id={`${props.id}`} className="flex flex-col md:flex-row items-center justify-between pt-16 p-8 bg-white max-w-7xl mx-auto">
       <div className="md:w-1/2">
         <h3 className="mb-6 underline subTitulo-cinza">{props.subtitulo}</h3>
         <h1 className={`${props.tSize} customPurple title`}>{props.titulo}</h1>
