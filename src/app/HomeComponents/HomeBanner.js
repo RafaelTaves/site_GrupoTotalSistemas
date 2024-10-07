@@ -3,7 +3,7 @@ import React from 'react';
 export default function HomeBanner(props) {
   return (
     <div className="flex flex-col md:flex-row h-[80vh] w-full">
-      <div className={`md:w-[50vw] w-full  bg-gradient-to-r from-light-blue-II via-light-green-I to-amber-400 animate-gradient-x bg-[length:200%_200%] flex flex-col justify-center items-start text-white p-10 ps-32`}>
+      <div className={`md:w-[50vw] w-full  css-selector flex flex-col justify-center items-start text-white p-10 ps-32`}>
         <h1 className={`text-3xl md:text-4xl title mb-4 ${props.textH1}`}>{props.h1}</h1>
         <p className={`text-base md:text-lg body1 mb-6 ${props.textP}`}>
         {props.p}
