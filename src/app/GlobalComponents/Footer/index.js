@@ -9,11 +9,11 @@ function Footer() {
         <footer className="bg-[#10171E] text-white pt-8 mt-16">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row md:inline-block">
-            <div className="mb-4 md:mb-0 w-20 "> 
-            <img src="./imagens/iconGTS.png"></img>
+            <div className="mb-4 md:mb-0 w-48"> 
+            <img src="./imagens/NovaLogoBrancaCropped.png" className='w-full'></img>
             </div>
   
-            <div className="grid grid-cols-1 md:flex md:justify-around ms-3 md:mt-5">
+            <div className="grid grid-cols-1 md:flex md:justify-around ms-1 md:mt-8">
               <div className='md:w-1/5'>
                 <ul className="underline body3 mb-5">
                   <li className='mb-1'><Link href="/">Início</Link></li>
@@ -61,7 +61,7 @@ function Footer() {
             </div>
             <div className='ms-3 md:flex md:mt-8 md:justify-between'>
                   <div className='text-sm mb-8'>
-                    <p>&copy; 2024 GRUPO TOTAL SISTEMA</p>
+                    <p>&copy; 2024 GRUPO TOTAL SISTEMAS</p>
                   </div>
                   <div className='mb-2'>
                     <a href="#Header" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

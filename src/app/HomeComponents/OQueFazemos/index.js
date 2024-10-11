@@ -49,10 +49,10 @@ const O_quefazemos = (props) => {
   ];
 
   return (
-    <section id="O_quefazemos" className="bg-white pt-10 p-8 max-w-7xl mx-auto">
+    <section id="O_quefazemos" className="bg-white pt-16 pb-0 p-8 max-w-7xl mx-auto">
     <div className="">
       <h3 className="mb-6 underline subTitulo-cinza">O QUE FAZEMOS</h3>
-      <h2 className="text-3xl title mb-8 h5Headline customPurple">{props.titulo}</h2>
+      <h2 className="mb-4 text-4xl customPurple title">{props.titulo}</h2>
       <p className="body1 mb-12">
         Com nossa metodologia exclusiva para fornecer os serviços e soluções empresariais de TI necessários, visamos não apenas atender, mas superar suas expectativas, permitindo que alcance seus resultados desejados e acelere seu crescimento de maneira significativa.
       </p>
@@ -78,7 +78,7 @@ const O_quefazemos = (props) => {
               <img src="./imagens/imagemCard.png" alt="Ícone de Pergunta" className="w-16 h-16 mb-4" />
             )}  
               <h3 className="h6Headline text-left mb-4">{service.title}</h3>
-              <p className="body1 text-left">{service.description}</p>
+              <p className="text-base text-left">{service.description}</p>
               {service.isFeatured && (
                 <Link href="Contato">
                 <button className="mt-4 px-4 py-2 botaoV flex items-center gap-2">

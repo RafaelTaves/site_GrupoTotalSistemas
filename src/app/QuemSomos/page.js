@@ -33,28 +33,6 @@ export default function QuemSomos () {
         />
         <NossosProdutos/>
         <TextsSection />
-        {/* <ValoresSection
-        subtitulo="# TRANSPARÊNCIA" 
-        titulo="Primamos pela transparência em todas as nossas interações, seja com colaboradores, clientes ou parceiros."
-        p1="Acreditamos que a honestidade é uma virtude fundamental. Esse compromisso com a verdade é conduzido com cuidado e empatia."
-        imgSrc={"./imagens/meioCirculo.png"}
-        imgAlt="Meio Circulo Laranja"
-        />
-        <ValoresSectionLeft
-        subtitulo="# LIBERDADE" 
-        titulo="Acreditamos no poder da liberdade para criar, pensar e liderar. Valorizamos um ambiente de trabalho onde cada pessoa pode ser a sua melhor versão."
-        p1="Proporcionamos liberdade nas escalas de horário, incentivamos conversas abertas e garantimos acesso direto à diretoria da empresa. Entendemos que a liberdade, inclusive para cometer erros, é fundamental para o crescimento e a inovação."
-        imgSrc={"./imagens/retanguloCinza.png"}
-        imgAlt="Retangulo Cinza"
-        />
-        <ValoresSection
-        subtitulo="# EXCELÊNCIA" 
-        titulo="Nossa busca incansável pelo progresso e pela entrega de resultados brilhantes está no cerne do que nos torna únicos e memoráveis."
-        p1="Como já explicamos algumas vezes, somos inimigos da média, por isso tudo o que fazemos é sustentado por uma cultura de integridade, credibilidade e positividade:"
-        imgSrc={"./imagens/imgQuemSomosPage.png"}
-        imgAlt="Quadrado Verde"
-        /> */}
-        {/* <TrabalheConosco /> */}
     </div>
     <Footer/>
     </>

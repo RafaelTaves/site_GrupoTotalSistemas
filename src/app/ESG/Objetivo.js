@@ -5,7 +5,7 @@ export default function Objetivo () {
 
     return(
     <>
-    <section className="bg-white pt-16 p-8 max-w-7xl mx-auto" id="objetivo">
+    <section className="bg-white pt-16 pb-0 p-8 max-w-7xl mx-auto" id="objetivo">
       <div className="max-w-screen-2xl">
         <div className="flex flex-col md:flex-row md:items-center">
           <div className="md:w-1/2 text-left md:pr-8 mb-8 md:mb-0">

@@ -3,17 +3,17 @@ import React from 'react';
 
 const Quem_somos = () => {
   return (
-    <section id="quemSomos" className="bg-white pt-16 p-8 max-w-7xl mx-auto"> 
+    <section id="quemSomos" className="bg-white pt-16 pb-0 p-8 max-w-7xl mx-auto"> 
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2 pr-8 pt-10">
           <h3 className="mb-6 underline subTitulo-cinza">QUEM SOMOS</h3>
           <p className="mb-4 text-4xl customPurple title">
             Com raízes familiares, acumulamos mais de duas décadas de expertise na oferta de serviços e soluções em TI.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 body1">
             Defendemos a ideia de que toda organização, pequena ou grande, merece colher resultados excepcionais ao investir em tecnologia.
           </p>
-          <p>
+          <p className='body1'>
             Estamos aqui para transformar essa crença em realidade, proporcionando não apenas soluções tecnológicas, mas uma colaboração sólida e estratégica que impulsiona o sucesso de nossos parceiros.
           </p>
           <Link href="/QuemSomos">

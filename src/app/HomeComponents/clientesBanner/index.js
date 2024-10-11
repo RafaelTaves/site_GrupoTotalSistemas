@@ -12,7 +12,7 @@ const ClientesBanner = () => {
   ];
 
   return (
-    <section className="bg-white pt-16 p-8 max-w-7xl mx-auto">
+    <section className="bg-white pt-16 pb-0 p-8 max-w-7xl mx-auto">
     <div className="">
     <div className="flex overflow-x-auto whitespace-nowrap justify-between scrollbar-hide"> 
       {logos.map((logo, index) => (

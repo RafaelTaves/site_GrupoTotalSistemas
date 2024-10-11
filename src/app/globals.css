@@ -5,7 +5,7 @@
 @import './styles/custom.css';
 
 .css-selector {
-    background: linear-gradient(270deg, #14b8a6, #6366f1, #7c3aed);
+    background: linear-gradient(270deg, #7c3aed, #6366f1, #14b8a6);
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 21s ease infinite;
@@ -79,7 +79,7 @@
     }
     
     .body1{
-        font-size: 24px;
+        font-size: 18px; 
         font-weight: 400;
         font-family: 'DM Sans';
     }
@@ -90,7 +90,7 @@
         font-family: 'DM Sans';
     }
     
-    .body1{
+    .body3{
         font-size: 16px;
         font-weight: 400;
         font-family: 'DM Sans';

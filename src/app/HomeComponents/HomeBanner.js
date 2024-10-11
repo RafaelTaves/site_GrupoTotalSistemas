@@ -5,7 +5,7 @@ export default function HomeBanner(props) {
     <div className="flex flex-col md:flex-row h-[80vh] w-full">
       <div className={`md:w-[50vw] w-full  css-selector flex flex-col justify-center items-start text-white p-10 ps-32`}>
         <h1 className={`text-3xl md:text-4xl title mb-4 ${props.textH1}`}>{props.h1}</h1>
-        <p className={`text-base md:text-lg body1 mb-6 ${props.textP}`}>
+        <p className={`text-base body1 mb-6 ${props.textP}`}>
         {props.p}
         </p>
         {props.botao === true ? <a href="#quemSomos">

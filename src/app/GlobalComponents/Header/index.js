@@ -12,7 +12,7 @@ const Header = (props) => {
   return (
     <header id="Header" className="flex items-center justify-between pt-4 pb-2 px-6 max-w-7xl mx-auto">
       <div className="flex items-center">
-        <img src='./imagens/logo.png' alt="Logo" className="h-10 w-auto" />
+        <img src='./imagens/NovaLogoOpcao3PNG.png' alt="Logo" className="h-10 w-auto" />
       </div>
       <nav className="hidden md:flex space-x-6 text-gray-600">
         <ul className="flex space-x-6">
