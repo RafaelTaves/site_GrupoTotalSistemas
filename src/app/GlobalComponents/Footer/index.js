@@ -6,11 +6,11 @@ import { FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
     return (
-        <footer className="bg-[#10171E] text-white pt-8 mt-16">
-        <div className="container mx-auto px-4">
+        <footer className="bg-[#10171E] text-white pt-8 mt-16 ">
+        <div className="container mx-auto px-4 max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:inline-block">
             <div className="mb-4 md:mb-0 w-48"> 
-            <img src="./imagens/NovaLogoBrancaCropped.png" className='w-full'></img>
+            <img src="./imagens/LogoFundoEscuroNum2.png" className='w-full'></img> {/*./imagens/NovaLogoBrancaCropped.png*/} {/*./imagens/iconGTS.png w-20*/}
             </div>
   
             <div className="grid grid-cols-1 md:flex md:justify-around ms-1 md:mt-8">
