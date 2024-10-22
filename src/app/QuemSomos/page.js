@@ -11,7 +11,8 @@ export default function QuemSomos () {
     return(
     <>
     <div id="QuemSomos" className="App mx-auto max-w-screen-2xl">
-        <Header quemSomosBold="font-bold"/>
+        <Header quemSomosBold="font-bold"/>    
+    </div>
         <HomeBanner
         bg = "bg-orange-400"
         textH1 = "text-white"
@@ -21,6 +22,7 @@ export default function QuemSomos () {
         imagem = "./imagens/stockPhotoAboutUs.jpg" // alterar imagem
         botao = {false}
         />
+    <div className="App mx-auto max-w-screen-2xl">
         <TextImg 
         subtitulo="NOSSA HISTÓRIA"
         tSize="text-3xl"

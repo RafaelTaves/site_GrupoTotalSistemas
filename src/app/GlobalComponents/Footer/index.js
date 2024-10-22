@@ -19,7 +19,6 @@ function Footer() {
                   <li className='mb-1'><Link href="/">Início</Link></li>
                   <li className='mb-1'><Link href="QuemSomos">Quem somos</Link></li>
                   <li className='mb-1'> <Link href="OQueFazemos">O que fazemos</Link></li>
-                  <li className='mb-1'><Link href="NossosProdutos">Nossos produtos</Link></li>
                   <li className='mb-1'><Link href="ESG">ESG</Link></li>
                   <li className='mb-1'><Link href="Contato">Contatos</Link></li>
                 </ul>

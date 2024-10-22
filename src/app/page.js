@@ -27,7 +27,6 @@ function App() {
       <div className="App mx-auto max-w-screen-2xl">
         <Quem_somos />
         <O_quefazemos titulo={"Pensamos no futuro. E pensamos em você."} />
-        {/* <Banner color="bg-[#D06F3D]" colorText="customPurple"/> */}
         <NossosProdutos />
         <FeedbackCarousel />
         <TrabalheConosco />

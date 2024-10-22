@@ -14,6 +14,7 @@ const OQueFazemos = () => {
     <>
     <div id="OQueFazemos" className="App mx-auto max-w-screen-2xl">
         <Header oQueFazemosBold="font-bold"/>
+    </div>
         <HomeBanner
         bg = "bg-amber-400"
         textH1 = "text-white"
@@ -23,6 +24,7 @@ const OQueFazemos = () => {
         imagem = "./imagens/stockPhotoHandShake.jpg" // alterar imagem
         botao = {false}
         />
+    <div className="App mx-auto max-w-screen-2xl">
         <SolucoesPersonalizadas />
         <O_quefazemos titulo="Descubra como podemos elevar o seu negócio a novos patamares." />
         <ComoFazemos />

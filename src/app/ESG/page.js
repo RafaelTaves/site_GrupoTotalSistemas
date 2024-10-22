@@ -12,6 +12,7 @@ export default function ESG () {
     <>
     <div id="NossosProdutos" className="App mx-auto max-w-screen-2xl">
         <Header esgBold="font-bold"/>
+    </div>
         <HomeBanner
         bg = "bg-light-green-I"
         textH1 = "text-white"
@@ -21,6 +22,7 @@ export default function ESG () {
         imagem = "./imagens/stockPhotoESG.jpg" // alterar imagem
         botao = {false}
         />
+    <div className="App mx-auto max-w-screen-2xl">
         <Objetivo />
         <NossosCompromissos />
         <TrabalheConosco />

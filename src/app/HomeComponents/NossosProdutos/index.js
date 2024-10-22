@@ -11,7 +11,7 @@ function NossosProdutos() {
   return (
     <div id="NossosProdutos" className="bg-white pt-16 pb-0 p-8  max-w-7xl mx-auto">
       <div className="mx-auto px-4 sm:px-6 lg:px-0">
-        <h3 className="mb-6 underline subTitulo-cinza">NOSSOS PRODUTOS</h3>
+        <h3 className="mb-6 underline subTitulo-cinza">EMPRESAS</h3>
         <h2 className="h5Headline customPurple mb-4">Empresas do grupo</h2>
         <p className='body1'>O Grupo Total Sistemas cria tecnologias que ajudam as pessoas a expandir os negócios.</p>
         <div className="flex flex-wrap md:flex-nowrap justify-center items-center flex-col md:flex-row">
