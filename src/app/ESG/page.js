@@ -5,6 +5,7 @@ import Objetivo from './Objetivo'
 import NossosCompromissos from './NossosCompromissos'
 import TrabalheConosco from '../HomeComponents/TrabalheConosco'
 import HomeBanner from '../HomeComponents/HomeBanner'
+import EsgBanner from './ESGBanner'
 
 
 export default function ESG () {
@@ -13,8 +14,7 @@ export default function ESG () {
     <div id="NossosProdutos" className="App mx-auto max-w-screen-2xl">
         <Header esgBold="font-bold"/>
     </div>
-        <HomeBanner
-        bg = "bg-light-green-I"
+        <EsgBanner
         textH1 = "text-white"
         textP = "text-white"
         h1="Nossos 30 anos de história atestam nosso compromisso em considerar o futuro ao cuidar do presente."

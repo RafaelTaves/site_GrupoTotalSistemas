@@ -9,25 +9,25 @@ export default function NossosCompromissos () {
   const cards = [
     {
     titulo: "Respeitar o meio ambiente",
-    icon: <FaTree className='text-green-400 h-10 w-auto'/>,
+    icon: <FaTree className='text-lime-600 h-14 w-auto border border-gray-200 rounded-xl p-2'/>,
     paragrafo: "Reduzir ao máximo as emissões provenientes de nossas atividades, adotando uma postura responsável e proativa.",
     img: "./imagens/stockPhotoRespectEnviroment.jpg"
     },
     {
      titulo: "Ser um empregador de referência",
-     icon: <MdBadge className='text-green-400 h-12 w-auto'/>,
+     icon: <MdBadge className='text-lime-600 h-14 w-auto border border-gray-200 rounded-xl p-2'/>,
      paragrafo: "Comprometemo-nos a aprimorar constantemente nossa capacidade de atender às necessidades de nossa força de trabalho.",
      img: "./imagens/stockPhotoEmployer.jpg"
     },
     {
       titulo: "Diversidade, Equidade e Inclusão",
-      icon: <FaHandHoldingHeart className='text-green-400 h-10 w-auto'/>,
+      icon: <FaHandHoldingHeart className='text-lime-600 h-14 w-auto border border-gray-200 rounded-xl p-2'/>,
       paragrafo: "Fomentar um ambiente de trabalho inclusivo, onde todos se sintam bem-vindos, valorizados e reconhecidos.",
       img: "./imagens/stockPhotoInclusion.jpg"
      },
      {
       titulo: "Apoiar e valorizar as comunidades vizinhas",
-      icon: <FaHandshake className='text-green-400 h-12 w-auto'/>,
+      icon: <FaHandshake className='text-lime-600 h-14 w-auto border border-gray-200 rounded-xl p-2'/>,
       paragrafo: "Construir relações com as comunidades próximas aos nossos escritórios para o progresso social e econômico.",
       img: "./imagens/stockPhotoHelpNeighboor.jpg"
      },
@@ -48,17 +48,17 @@ export default function NossosCompromissos () {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
         {cards.map((card) => (
-          <div key={card.id} className="bg-gray-200 rounded-3xl border shadow-lg overflow-hidden">
+          <div key={card.id} className="bg-neutral-100 rounded-3xl border shadow-md hover:shadow-lg ">
             {/* <img
               src={card.img}
               className="w-full h-48 object-cover"
             /> */}
-            <div className="p-4 pt-2 h-40">
-              <div className='flex gap-x-3 '>
+            <div className="p-4 pt-2 min-h-48">
+              <div className=''>
                 {card.icon}
-                <h3 className="text-xl font-bold customPurple self-center title">{card.titulo}</h3>
               </div>
-              <p className="body1 text-gray-900">{card.paragrafo}</p>
+              <h3 className="text-xl font-bold customPurple self-center title mt-2">{card.titulo}</h3>
+              <p className="body1 text-gray-900 mt-1">{card.paragrafo}</p>
             </div>
           </div>
         ))}

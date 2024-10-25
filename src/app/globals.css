@@ -13,6 +13,15 @@
     animation: AnimationName 21s ease infinite;
 }
 
+.css-selectorESG {
+    background: linear-gradient(270deg, #65a30d, #14b8a6, #6366f1);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
