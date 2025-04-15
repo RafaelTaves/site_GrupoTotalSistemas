@@ -27,7 +27,7 @@ function App() {
       <div className="App mx-auto max-w-screen-2xl">
         <Quem_somos />
         <O_quefazemos titulo={"Pensamos no futuro. E pensamos em você."} />
-        <NossosProdutos />
+        {/* <NossosProdutos /> */}
         <FeedbackCarousel />
         <TrabalheConosco />
       </div>

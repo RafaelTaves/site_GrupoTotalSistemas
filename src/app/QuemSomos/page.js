@@ -33,7 +33,7 @@ export default function QuemSomos () {
         imgSrc={"./imagens/BorboletaFotos.png"}
         imgAlt="Borboleta de fotos"
         />
-        <NossosProdutos/>
+        {/* <NossosProdutos/> */}
         <TextsSection />
     </div>
     <Footer/>
