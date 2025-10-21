@@ -22,7 +22,7 @@ function TextsSection() {
       <div className="mt-8">
         <h3 className="mb-6 underline subTitulo-cinza">NOSSOS VALORES</h3>
         <p className="h6Headline customPurple">
-          Damos grande importância à construção de parcerias duradouras com nossos clientes, fomentando um ambiente propício ao cultivo da confiança mútua e à colaboração efetiva que impacta positivamente. Nossos valores inegociáveis:
+          Damos grande importância à construção de parcerias duradouras com nossos clientes, fomentando um ambiente propício ao cultivo da confiança mútua e à colaboração efetiva que impacta positivamente. 
         </p>
       </div>
     </section>
