@@ -14,7 +14,7 @@ function SolucoesPersonalizadas() {
           </div>
           <div className='mt-4'>
             <h3 className="h6Headline customPurple mb-4">Pequenas e Médias Empresas</h3>
-            <p className="body2 text-justify md:body1 md:mr-20">Explore novas alternativas para potencializar o dia a dia de sua pequena ou média empresa.</p>
+            <p className="body2 text-justify md:body1 md:mr-20">Soluções sob medida para simplificar processos e acelerar os resultados da sua empresa.</p>
           </div>
         </div>
 
@@ -24,7 +24,7 @@ function SolucoesPersonalizadas() {
           </div>
           <div className='mt-4'>
             <h3 className="h6Headline customPurple mb-4">Corporações</h3>
-            <p className="body2 text-justify md:body1 md:mr-20">Descubra novas perspectivas para otimizar as operações diárias de sua grande empresa.</p>
+            <p className="body2 text-justify md:body1 md:mr-20">Inovação e inteligência para otimizar operações e impulsionar grandes resultados.</p>
           </div>
         </div>
 
