@@ -12,7 +12,7 @@ const O_quefazemos = (props) => {
     {
       icon: './imagens/iconeLapis.ico',
       title: 'Elaboração de Projetos',
-      description: 'Definir com o cliente exatamente o que ele deseja. Como ele quer, qual público alvo, qual estratégia a ser seguida e qual orçamento. A partir disso criamos um protótipo com nossa equipe de UX/UI.',
+      description: 'Trabalhamos lado a lado com o cliente para definir objetivos, público-alvo e estratégia. A partir desse diagnóstico, criamos prototipagens funcionais e interfaces intuitivas, desenvolvidas pela nossa equipe especializada em UX/UI.',
     },
     {
       icon: './imagens/iconeCode.ico',
@@ -35,7 +35,7 @@ const O_quefazemos = (props) => {
       description: 'Ao digitalizar e armazenar documentos em formato digital, garantimos segurança, acessibilidade fácil e minimizamos perdas, trazendo eficiência e economia.',
     },
     {
-        title: 'Entre em contato para entendermos como podemos te ajudar.',
+        title: 'Fale conosco e descubra como podemos impulsionar o seu negócio com tecnologia.',
         isFeatured: true, 
       },
   ];

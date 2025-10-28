@@ -7,7 +7,7 @@ function TextsSection() {
         <div className="mb-4">
         <h3 className="mb-6 underline subTitulo-cinza">NOSSA MISSÃO</h3>
           <p className="h6Headline customPurple">
-          Promover inovação tecnológica e excelência em serviços de TI, atendendo às necessidades de nossos clientes com soluções personalizadas e eficientes, sempre com transparência e foco na satisfação do cliente.
+          Promover inovação tecnológica e excelência em serviços de TI, oferecendo soluções personalizadas, eficientes e transparentes que superem as expectativas e gerem valor real para nossos clientes.
           </p>
         </div>
 
@@ -22,7 +22,8 @@ function TextsSection() {
       <div className="mt-8">
         <h3 className="mb-6 underline subTitulo-cinza">NOSSOS VALORES</h3>
         <p className="h6Headline customPurple">
-          Damos grande importância à construção de parcerias duradouras com nossos clientes, fomentando um ambiente propício ao cultivo da confiança mútua e à colaboração efetiva que impacta positivamente. 
+          Valorizamos parcerias duradouras, baseadas em confiança, transparência e colaboração.
+          Acreditamos que relacionamentos sólidos são a base para resultados que impactam positivamente pessoas e negócios.
         </p>
       </div>
     </section>
