@@ -60,7 +60,7 @@ function Footer() {
             </div>
             <div className='ms-3 md:flex md:mt-8 md:justify-between'>
                   <div className='text-sm mb-8'>
-                    <p>&copy; 2024 GRUPO TOTAL SISTEMAS</p>
+                    <p>&copy; 2025 GRUPO TOTAL SISTEMAS</p>
                   </div>
                   <div className='mb-2'>
                     <a href="#Header" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
