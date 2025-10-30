@@ -12,7 +12,7 @@ const Header = (props) => {
   return (
     <header id="Header" className="flex items-center justify-between pt-4 pb-2 px-6 max-w-7xl mx-auto">
       <div className="flex items-center">
-        <img src='./imagens/LogoFundoBrancoNum2.jpg' alt="Logo" className="h-11 w-auto" /> {/*./imagens/NovaLogoOpcao3PNG.png h-10*/} {/*./imagens/logo.png*/}
+        <img src="./imagens/LogoFundoBrancoNum2.jpg" alt="Logo" className="h-16 md:h-20 w-auto object-contain"/>
       </div>
       <nav className="hidden md:flex space-x-6 text-gray-600">
         <ul className="flex space-x-6">
