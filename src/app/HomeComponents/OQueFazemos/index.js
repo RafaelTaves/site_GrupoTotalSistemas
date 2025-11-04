@@ -7,12 +7,12 @@ const O_quefazemos = (props) => {
     {
       icon: './imagens/iconeEtiqueta.ico', 
       title: 'Outsorcing',
-      description: 'Locação de Impressoras de Etiquetas & Computadores. O melhor compromisso entre redução de custos e serviço de qualidade. Permite que se foque inteiramente no seu negócio, deixando a responsabilidade da informática para nós.',
+      description: 'Locação de impressoras e computadores com o melhor custo-benefício. Cuidamos da sua TI para que você foque no que realmente importa: o seu negócio.',
     },
     {
       icon: './imagens/iconeLapis.ico',
       title: 'Elaboração de Projetos',
-      description: 'Trabalhamos lado a lado com o cliente para definir objetivos, público-alvo e estratégia. A partir desse diagnóstico, criamos prototipagens funcionais e interfaces intuitivas, desenvolvidas pela nossa equipe especializada em UX/UI.',
+      description: 'Criamos protótipos e interfaces intuitivas com foco em usabilidade e inovação, desenvolvidas por nossa equipe especializada em UX/UI.',
     },
     {
       icon: './imagens/iconeCode.ico',
@@ -22,12 +22,12 @@ const O_quefazemos = (props) => {
     {
       icon: './imagens/iconeCelular.ico',
       title: 'Soluções em APP',
-      description: 'A praticidade de uma solução que caiba na palma da nossas mãos vem através dos APPs. Utilizamos as melhores ferramentas para você conseguir ter uma solução rápida, prática e simples no seu celular/tablet.',
+      description: 'A praticidade de uma solução na palma da mão. Desenvolvemos aplicativos rápidos e intuitivos, usando as melhores ferramentas para garantir agilidade e simplicidade no seu celular ou tablet.',
     },
     {
       icon: './imagens/iconeComputador.ico',
       title: 'Portais Institucionais',
-      description: 'Desenvolvemos a solução para a sua presença no mundo digital. Desta forma você terá um site institucional moderno e acessível, que será um excelente canal de contato com o seus clientes / público alvo.',
+      description: 'Desenvolvemos sites institucionais modernos e acessíveis para fortalecer sua presença digital e aproximar sua marca do público.',
     },
     {
       icon: './imagens/iconeNuvem.ico',
