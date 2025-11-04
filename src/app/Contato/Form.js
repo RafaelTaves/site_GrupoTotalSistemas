@@ -44,23 +44,22 @@ function ContactForm() {
         />
 
         {/* Layout principal: imagem à esquerda e formulário à direita */}
-        <div className="flex flex-col-reverse md:flex-row-reverse justify-between items-start gap-8">
+      <div className="flex flex-col md:flex-row justify-between items-start gap-16">
+  {/* Imagem à esquerda */}
+      <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-start -ml-32">
+       <img
+       src="./imagens/fotoContatos.png"
+       alt="Pessoas trabalhando"
+       className="object-contain"
+       style={{ width: "auto", height: "auto", maxWidth: "900px" }}
+       />
+     </div>
 
-          {/* Imagem */}
-          <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-start">
-            <img
-              src="./imagens/fotoContatos.png"
-              alt="Pessoas trabalhando"
-              className="object-contain"
-              style={{ width: "auto", height: "auto", maxWidth: "1000px" }}
-            />
-          </div>
-
-          {/* Formulário */}
-          <form
-            onSubmit={handleForm}
-            className="max-w-xl w-full mx-auto mt-8 md:mt-0 bg-[#DEE2E6] p-8 rounded-xl shadow-sm"
-          >
+  {/* Formulário à direita */}
+        <form
+         onSubmit={handleForm}
+         className="max-w-xl w-full mx-auto mt-8 md:mt-0 bg-[#DEE2E6] p-8 rounded-xl shadow-sm"
+         >
             <h2 className="h5Headline customPurple mb-4">
               Iremos surpreendê-lo com os resultados que entregamos. Vamos conversar?
             </h2>
