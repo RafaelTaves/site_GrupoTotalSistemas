@@ -39,10 +39,7 @@ const ComoFazemos = () => {
           <div className="bg-blue-500  h-12 w-12 mb-4"></div>
           <h3 className="h6Headline customPurple mb-2">Gerenciar</h3>
           <p className="body1 text-left">
-            Para impulsionar o crescimento, compreendemos a necessidade de suporte operacional de TI de classe mundial no dia a dia. Isso permite que você se dedique plenamente aos seus clientes e ao sucesso do seu negócio.
-          </p>
-          <p className="body1 text-left mt-2">
-            Garantimos um gerenciamento eficiente das operações e plataformas de TI. Dessa forma, você pode se concentrar no seu negócio principal, aproveitando os benefícios estratégicos e operacionais 24/7, 365 dias por ano.
+            Compreendemos a importância do suporte operacional de TI no dia a dia. Oferecemos gestão eficiente de operações e plataformas, permitindo foco total no seu negócio e garantindo benefícios estratégicos e operacionais contínuos, 24/7.
           </p>
         </div>
 
